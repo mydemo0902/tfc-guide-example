@@ -1,7 +1,6 @@
 provider "aws" {
   region = var.region
-  profile = "default"
-}
+  }
 
 data "aws_ami" "ubuntu" {
   most_recent = true
